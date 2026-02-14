@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: hsl(245, 58%, 51%);
+    --color-primary-foreground: hsl(0, 0%, 100%);
+}
+
+@layer base {
+    body {
+        @apply bg-slate-50 text-slate-900;
+    }
+}
